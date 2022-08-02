@@ -12,7 +12,7 @@ GTFS_RT_FEED = str(os.environ["RealTimeFeedUrl"])
 LOGIC_APP_URL = str(os.environ["LogicAppUrl"])
 
 def main(GetBusData: func.TimerRequest) -> func.HttpResponse:
-    ## Get the routes we want to monitor
+    ## Get the routes we want to monitorm  m
     routes = GetMonitoredRoutes()
     
     ## Get the real-time bus location feed
